@@ -166,6 +166,8 @@ int main()
     }
 
     string slowo = "s*a**z*a"; // szukane slowo * - nieznana literka
+    
+    
     transform(slowo.begin(), slowo.end(), slowo.begin(), ::tolower);
     vector<int>
         astIndexes;
